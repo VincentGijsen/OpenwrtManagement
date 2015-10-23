@@ -1,0 +1,13 @@
+{
+  "database": "database",
+  "user": "user",
+  "password" : "password",
+  "dialect": "sqlite",
+  "host" : "localhost",
+  "pool": {
+    "max": 5,
+    "min": 0,
+    "idle": 10000
+  },
+  "storage": "/tmp/database.sqlite"
+}
