@@ -1,5 +1,3 @@
-"use strict";
-
 module.exports = function(sequelize, DataTypes) {
   var Router = sequelize.define("Router", {
     ip: DataTypes.STRING,
