@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  p This is the wifi overview
+  h2 Creating a new user
+  form(action="/users/create", method="post")
+    input(type="text", name="username")
+    input(type="submit")
+
+  h2 Wifi
+
+
+  ul
+  each w in wifi
+    li
+      = w
+      | (
+
+      | )
